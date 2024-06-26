@@ -1,5 +1,3 @@
-[![MasterHead](https://th.bing.com/th/id/OIP.ruuTjd-KAhEGjRHy7BOJUQHaI0?rs=1&pid=ImgDetMain)](https://issuu.com/ivaburg/docs/portfolio_2020)
-
 <h1 align="center">Hi 👋, I'm Sardar Hossaini</h1>
 <h3 align="center">I want to design a Portfolio Website for my self</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" >
