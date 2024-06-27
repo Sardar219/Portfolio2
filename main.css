@@ -1,0 +1,297 @@
+*{
+  box-sizing: border-box;
+  padding: 0;margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+#body{
+  background: white;
+  color: black !important;
+}
+/* ------> navbar <------------ */
+#nav{
+  margin-top: 20px;
+  position: sticky;
+  top: 10px;
+}
+#logo a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+}
+#titlename{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+}
+.offcanvas{
+  text-align: center;
+}
+.offcanvas-header{
+  border-bottom: 1px solid black;
+}
+.nav-link{
+  color:rgba(0, 0, 0) !important;
+  margin: 0 2px;
+}
+.nav-link:hover{
+  color: white !important;
+  background-color:rgba(0, 0, 0, 0.8);;
+  border-radius: 4px;
+}
+.navbar-toggler,.btn-close{
+  border:1px solid #33333375 !important;
+  color: #33333375 !important;
+}
+/* ------> back-content <------------ */
+#back-content{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+.back-content-photo{
+  text-align: right;
+}
+.back-content-photo img{
+  width: 65%;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.back-content-photo img:hover{
+  transform: scale(1.05);
+  transition: 1s;
+  box-shadow: 0px 3px 20px 0px black;
+}
+.back-content-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center !important;
+}
+.back-content-text span:first-child,.back-content-text p{
+  color: #555;
+  font-weight: bold;
+  font-size: 17px;
+}
+.back-content-text .name{
+  color: black;
+  font-weight: bolder;
+}
+.back-content-text p{
+  font-size: 25px;
+}
+.back-content-text div button{
+  border-radius: 25px;
+}
+.back-content-text div button:hover{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+.back-content-text a span{
+  margin: 25px 5px;
+  color: black !important;
+  font-size: 32px !important;
+}
+.back-content-text #linkedin{
+  background-color: black;
+  font-size: 30px;
+  border-radius: 17px;
+}
+.back-content-text #linkedin #linked{
+  color: white !important;
+  font-size: 23px !important;
+}
+.back-content-text a span:hover{
+  transform: scaleX(-1);
+  transition: 1s;
+}
+/* ---------> Title <---------- */
+.title{
+  margin: 150px 0 90px;
+  text-align: center;
+}
+.title p{
+  color: #555;
+}
+.title h1{
+  color: black;
+  font-weight: bold;
+}
+/* ---------> Section1 <---------- */
+.section1 #about-me .image img{
+  border-radius: 25px;
+  box-shadow: 0 0 5px 2px #ccc;
+  opacity: 0.7;
+}
+.section1 #about-me .image img:hover{
+  opacity: 1;
+  transform: scale(1.02);
+  transition: 1s;
+}
+.section1 #about-me .ed-about{
+  text-align: center;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(8,1fr);
+  align-content: center;
+}
+#part1{
+  grid-column: 2/5;
+}
+#part2{
+  grid-column: 5/8;
+}
+#part3{
+  grid-column: 2/8;
+}
+#part1,#part2{
+  border: 2px solid rgba(85, 85, 85, 0.5);
+  border-radius: 25px;
+  padding: 25px 0;
+}
+#part1 .fa{
+  color: black;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+#part1 #subject,#part2 #subject{
+  font-size: 21px;
+  color: black;
+  font-weight: bold;
+}
+#part1 span,#part2 span,#part3 p{
+  color: black;
+  display: block;
+}
+#part3 p{
+  text-align: justify;
+}
+/* ---------> Section2 <---------- */
+#exper .col-12 #frontend,#backend{
+  color: black;
+  border: 2px solid rgba(85, 85, 85, 0.5);
+  border-radius: 25px;
+  height: 90%;
+  text-align: center;
+  padding: 30px 0 0;
+  margin: 30px;
+}
+#exper .col-12 #frontend h4,#exper .col-12 #backend h4{
+  color: #555;
+  margin-bottom: 20px;
+}
+#frontend ul,#backend ul{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+#frontend ul li,#backend ul li{
+  display: flex inline;
+  text-align: left;
+}
+#frontend ul li .fa,#backend ul li .fa{
+  color: black;
+  font-size: 30px;
+  display: block;
+  margin-top: 5px;
+}
+#frontend ul li div span,#backend ul li div span{
+  display: block;
+  font-size: 15px !important;
+  color: #555;
+}
+#frontend ul li div,#backend ul li div{
+  text-align: left;
+  margin-left: 10px;
+}
+#frontend ul li div #skill,#backend ul li div #skill{
+  font-size: 18px !important;
+  font-weight: bold;
+}
+/* ---------> Section3 <---------- */
+#Projects .col-12 #inner-box{
+  text-align: center;
+  padding: 25px;
+  border: 2px solid rgba(85, 85, 85, 0.5);
+  border-radius: 20px;
+}
+#Projects .col-12 #inner-box img{
+  border-radius: 18px;
+  box-shadow: 0 0 5px 1px #bbb;
+}
+#Projects .col-12 #inner-box img:hover{
+  transform: scale(1.02);
+  transition: 0.8s;
+}
+#Projects .col-12 #inner-box h3{
+  color: black;
+  margin: 20px 0 13px;
+}
+#Projects .col-12 #inner-box div a{
+  border: 1px solid black;
+  color: black;
+  padding: 7px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+#Projects .col-12 #inner-box div a:hover{
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+/* ---------> Section4 <---------- */
+#cont div{
+  text-align: center;
+}
+#cont div div{
+  display: inline-block;
+  border: 3px solid rgba(85, 85, 85, 0.5);
+  padding: 30px;
+  border-radius: 40px;
+}
+#cont div div span{
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  border-radius: 13px;
+}
+#cont div div a{
+  text-decoration: none;
+  color: #808080;
+  margin-right: 15px;
+}
+#cont div div a:hover{
+  color: black;
+}
+/* ---------> Section5 <---------- */
+#section5{
+  margin-top: 140px;
+  text-align: center;
+}
+#section5 ul li{
+  list-style: none;
+  display: inline-block;
+}
+#section5 ul li a{
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 10px;
+  color: #555;
+}
+#section5 ul li a:hover{
+  color: black;
+}
+#section5 ul li a span,#section5 ul li span{
+  color:#555;
+  font-size: 24px;
+  padding: 10px;
+}
+#section5 ul li a span:hover,#section5 ul li span:hover{
+  color: black;
+}
+#section5 p{
+  color: black;
+}
